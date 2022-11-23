@@ -1,0 +1,33 @@
+:root {
+    --background: #444;
+    --text: #f0f6f0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.page-wrapper {
+    width: 100%;
+    max-width: 1920px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-dice {
+    width: 100px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 2px solid var(--text);
+    background-color: var(--background);
+    color: var(--text);
+}
